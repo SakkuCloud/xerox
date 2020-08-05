@@ -85,6 +85,7 @@ logout_result_code=$?;
 
 if [ $logout_result_code -eq 0 ]; then
     echo -e "\tlogged out in successfully!"
+    cleanup;
 else
     echo -e "\tcant logout from registry: $logout_result_message.";
     cleanup;
