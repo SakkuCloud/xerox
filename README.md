@@ -6,7 +6,7 @@ Login, Pull, Tag, and Push into same registries at the same time with infinite n
 Simple, but handy:
 
 ```bash
-pullimage.sh -u foo -p *********** -l registry.gitlab.com -r registry.foo.com/foo/sourceimage:srctag -t registry.bar.cloud/bar/destimage:dsttag
+./xerox.sh -u foo -p *********** -l registry.gitlab.com -r registry.foo.com/foo/sourceimage:srctag -t registry.bar.cloud/bar/destimage:dsttag
 ```
 
 * `-u` username
